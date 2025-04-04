@@ -19,7 +19,15 @@ import java.util.*;
 
 public class CollectionsFramework {
     public static void main(String[] args) {
-
+        CollectionsFramework cfw = new CollectionsFramework();
+        cfw.arrayListExample();
+        cfw.hashMapExample();
+        cfw.hashSetExample();
+        cfw.linkedListExample();
+        cfw.stackExample();
+        cfw.treeSetExample();
+        cfw.treeMapExample();
+        cfw.priorityQueueExample();
     }
 
     // Ordered collection, duplicates allowed
