@@ -69,6 +69,6 @@ public class MemoryAllocation {
         int num = 5;              // Stored on Stack
         String s1 = "Hello";      // Reused from String Pool
         String s2 = new String("Hello"); // New String object on Heap
-        MemoryAllocation emp1 = new MemoryAllocation();  // Reference on Stack, Object on Heap
+        MemoryAllocation emp1 = new MemoryAllocation();  //  Reference on Stack, Object on Heap
     }
 }
